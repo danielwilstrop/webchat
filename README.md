@@ -19,6 +19,6 @@ Tech used :
 
     ![screengrab of the app](/chatshot3.png)
 
-    ![screengrab of the app](chatshot1.png)
+    ![screengrab of the app](/chatshot1.png)
 
-    ![screengrab of the app](chatshot2.png)
+    ![screengrab of the app](/chatshot2.png)
