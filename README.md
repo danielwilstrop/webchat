@@ -15,9 +15,9 @@ Tech used :
     - GIT for version control
     - Heroku for deployment
 
-[Live Site Availible Here](https://webchat-unichat.herokuapp.com/)
+[Live Site - Here](https://webchat-unichat.herokuapp.com/)
 
-    ![screengrab of the app](chatshot3.png)
+    ![screengrab of the app](/chatshot3.png)
 
     ![screengrab of the app](chatshot1.png)
 
