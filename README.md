@@ -1,4 +1,4 @@
-##Live Chat Web APP - with Auth and Database##
+## Live Chat Web APP - with Auth and Database ##
 
 Full live chat app with seperate rooms, user authentication using JWT and mongoDB 
 
@@ -17,8 +17,8 @@ Tech used :
 
 [Live Site - Here](https://webchat-unichat.herokuapp.com/)
 
-    ![screengrab of the app](/chatshot3.png)
+    ![screengrab of the app](chatshot3.png)
 
-    ![screengrab of the app](/chatshot1.png)
+    ![screengrab of the app](chatshot1.png)
 
-    ![screengrab of the app](/chatshot2.png)
+    ![screengrab of the app](chatshot2.png)
