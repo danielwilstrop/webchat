@@ -15,9 +15,12 @@ Tech used :
     - GIT for version control
     - Heroku for deployment
 
-    <br>
+  
 
 [Live Site - Here](https://webchat-unichat.herokuapp.com/)
+
+  <br>
+  
 
     ![screengrab of the app](https://github.com/danielwilstrop/webchat/blob/main/chatshot3.png)
 
