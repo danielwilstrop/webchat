@@ -19,11 +19,11 @@ Tech used :
 
 [Live Site - Here](https://webchat-unichat.herokuapp.com/)
 
-  <br>
+
   
 
-    ![screengrab of the app](https://github.com/danielwilstrop/webchat/blob/main/chatshot3.png)
+ ![screengrab of the app](https://github.com/danielwilstrop/webchat/blob/main/chatshot3.png)
 
-    ![screengrab of the app](https://github.com/danielwilstrop/webchat/blob/main/chatshot1.png)
+ ![screengrab of the app](https://github.com/danielwilstrop/webchat/blob/main/chatshot1.png)
 
-    ![screengrab of the app](https://github.com/danielwilstrop/webchat/blob/main/chatshot2.png)
+ ![screengrab of the app](https://github.com/danielwilstrop/webchat/blob/main/chatshot2.png)
