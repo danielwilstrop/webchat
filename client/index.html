@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/index.css" />
+		<title>Uni-Chat! Welcome!</title>
+	</head>
+	<body>
+		<div class ='info'>
+			<h1 class ='header'> Uni-Chat <i class = 'fas fa-university'></i> </h1>
+			<p>Welcome to Uni-Chat, the one stop chat app for talking to other students on your course with different rooms for all types of chat.  From serious module talk and help with your struggles, through to what youre doing at the weekend, there will be a room for you!<br><br> Please register here to access the chat. </p>
+		</div>
+		<div class = 'mobile-header'><h1 class ='header'> Uni-Chat <i class = 'fas fa-university'></i> </h1></div>
+		<form id='reg-form'>
+			<h2> Register </h2>
+			<label for= 'firstname'> First Name </label>
+				<input type = 'text' autocomplete = 'off' placeholder="Name" name = 'firstname'id = 'firstname' required/>
+			<label for = 'surname'> Last Name </label>
+				<input type = 'text' autocomplete = 'off' placeholder="Surname" name = 'surname' id = 'surname' required />
+			<label for = 'email'> E-Mail </label>
+				<input type = 'email' autocomplete = 'off' placeholder="E-Mail" name = 'email' id = 'email' required />
+			<label for = 'username'> Username </label>
+				<input type = 'text' autocomplete = 'off' placeholder="Username" name = 'username'id = 'username' required/>
+			<label for = 'password'>Password </label>
+				<input type = 'password' placeholder="Password" name = 'password' id = 'password' required />
+			<label for = 'password-confirm'>Confirm Password </label>
+				<input type = 'password' placeholder="Confirm-Password" name = 'password-confirm' id = 'password-confirm' required/>
+			<input type ='submit' id ='submit' value = 'Register' class='btn' />
+			<button class = 'btn'><a href = '/login.html'> Already Registered?</a></button>
+			<div class ="error"></div>
+		</form>
+		<footer>
+			<p>&copy; Daniel Wilstrop <span class ='date'></span>
+				<a href = 'https://github.com/danielwilstrop' target="blank"> &nbsp;&nbsp;
+					 Github - <i class ='fab fa-github'></i>
+				</a>
+				<a href = 'mailto:d.wilstrop@hotmail.co.uk' target="blank"> &nbsp;&nbsp;
+					Email - <i class ='far fa-envelope'></i>
+			   </a>
+			</p>
+		</footer>
+		<!-- sucess modal -->
+		<div class = 'modal'>
+			<img src = './images/sucess.png' alt = 'green tick'>
+		</div>
+		<script src = './JS/register.js'></script>
+	</body>
+</html>

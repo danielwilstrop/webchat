@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Uni-Chat</title>
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1><i class="fas fa-university"></i> Uni-Chat</h1>
+      <button class = 'log-out btn'><a href="index.html">Log Out</a></button>
+      <button class = 'btn'><a href = '/delete-account.html'> Delete Account </a></button>
+    </header>
+    <main class="chat-main">
+      <div class="chat-sidebar">
+        <div>
+        <h3><i class="fas fa-comments"></i> Choose a Chat:</h3>
+        <select class = 'room-select'>
+          <option value = 'general'> General Chat </option>
+          <option value = 'Computing'> Computing Help </option>
+          <option value = 'Tutorials'> Tutorials </option>
+          <option value = 'Coding Chat'> Coding Chat </option>
+          <option value = 'TMA/iCMA Queries'> TMA/iCMA Queries </option>
+          <option value = 'Module Related Advice'> Module Related Advice </option>
+        </select>
+      </div>
+        <h3>  <i class="fa fa-users" aria-hidden="true"></i> Currently Online  </h3>
+        <ul class = 'user-list' id = 'users'>
+          <!--Online users will go here-->
+        </ul>
+      </div>
+      <div class="chat-messages">
+			<!-- Chat messages will go here -->
+      </div>
+    </main>
+    <div class="chat-form-container">
+      <form id="chat-form">
+        <input
+          id="msg"
+          type="text"
+          placeholder="Enter Message"
+          required
+          autocomplete="off"
+        />
+        <button class="btn"><i class="fas fa-plus"></i> Send</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>
+      &copy; Daniel Wilstrop <span class ='date'></span>
+      <a href = 'https://github.com/danielwilstrop' target="blank"> &nbsp;&nbsp;
+         Github - <i class ='fab fa-github'></i>
+      </a>
+      <a href = 'mailto:d.wilstrop@hotmail.co.uk' target="blank"> &nbsp;&nbsp;
+        Email - <i class ='far fa-envelope'></i>
+       </a>
+    </p>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.1/qs.min.js" integrity="sha512-aTKlYRb1QfU1jlF3k+aS4AqTpnTXci4R79mkdie/bp6Xm51O5O3ESAYhvg6zoicj/PD6VYY0XrYwsWLcvGiKZQ==" crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./JS/main.js"></script>
+</body>
+</html>

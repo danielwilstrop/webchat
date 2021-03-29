@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+    <title> Uni-Chat - Delete Account </title>
+</head>
+<body>
+    <p class="icon"><i class = 'fas fa-university'></i>Uni-Chat &copy;</p>
+    <form id='reg-form'>
+        <h2> Delete Account? </h1>
+        <label for = 'username'> Username </label>
+            <input type = 'text' autocomplete = 'off' placeholder="Username" name = 'username'id = 'username' required/>
+        <label for = 'password'>Password </label>
+            <input type = 'password' autocomplete = 'off' placeholder="password" name = 'password' id = 'password' required />
+        <label for = 'confirm-password'> Confirm Password </label>
+            <input type = 'password' autocomplete = 'off' placeholder=" Confirm Password" name = 'confirm-password' id = 'confirm' required />
+        <input type ='submit' id ='submit' value = 'Delete Account' class ='btn'/>
+        <p class ="error"></p>
+    </form>
+
+    <!-- SVG for Tick on success -->
+    <div class = 'modal'>
+        <img src = './images/sucess.png' alt = 'green tick'>>
+    </div>
+
+    <footer>
+        <p>
+            &copy; Daniel Wilstrop <span class ='date'></span>
+            <a href = 'https://github.com/danielwilstrop' target="blank"> &nbsp;&nbsp;
+                 Github - <i class ='fab fa-github'></i>
+            </a>
+            <a href = 'mailto:d.wilstrop@hotmail.co.uk' target="blank"> &nbsp;&nbsp;
+                Email - <i class ='far fa-envelope'></i>
+           </a>
+        </p>
+    </footer>
+    <script src = './JS/deleteAccount.js'></script>
+</body>
+</html>
