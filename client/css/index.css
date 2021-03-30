@@ -74,9 +74,10 @@ body::before {
         display: none;
     }
 
-    form {
-        margin-bottom: 8rem;
+      form {
+        margin-bottom: 1rem;
         height: 65vh;
+        max-height: 70vh;
     }
 
 }
