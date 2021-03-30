@@ -209,11 +209,12 @@ footer a {
 @media (max-width: 700px) {
 	.chat-main {
 		display: block;
+		max-height: 100vh;
 	}
 
 	.chat-sidebar {
 		position: relative;
-		height: 10%;
+		height: 6%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
